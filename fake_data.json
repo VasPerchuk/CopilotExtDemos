@@ -1,0 +1,93 @@
+{
+    "_comment": "To tailor fake data to your scenario, please, use Copilot to populate this file with entries from examples below",
+    "value": [
+        {
+            "title": "Article title here",
+            "category": "Options are: Users, Admins, Decision Makers",
+            "content": "Article content here. One paragraph only.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Introduction to Copilot for Microsoft 365",
+            "category": "Users",
+            "content": "Copilot for Microsoft 365 provides AI assistance to boost productivity and efficiency across various Microsoft 365 apps. It helps users with tasks such as summarizing emails, generating content, and managing data.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Getting Started with Copilot for Microsoft 365",
+            "category": "Users",
+            "content": "Learn how to set up and start using Copilot for Microsoft 365. This guide covers the initial setup, basic functionalities, and tips for getting the most out of Copilot.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Admin Guide for Copilot for Microsoft 365",
+            "category": "Admins",
+            "content": "This guide provides IT admins with the necessary information to manage and configure Copilot for Microsoft 365. It includes details on user management, security settings, and troubleshooting.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Copilot for Microsoft 365: Best Practices",
+            "category": "Decision Makers",
+            "content": "Discover best practices for implementing and using Copilot for Microsoft 365 in your organization. This article covers strategies for maximizing productivity and ensuring data security.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Frequently Asked Questions about Copilot for Microsoft 365",
+            "category": "Users",
+            "content": "Find answers to common questions about Copilot for Microsoft 365, including its capabilities, limitations, and how to get support.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Copilot for Microsoft 365: Security and Compliance",
+            "category": "Admins",
+            "content": "Learn about the security and compliance features of Copilot for Microsoft 365. This article covers data protection, privacy policies, and compliance with industry standards.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Enhancing Productivity with Copilot for Microsoft 365",
+            "category": "Decision Makers",
+            "content": "Explore how Copilot for Microsoft 365 can enhance productivity in your organization. This article provides insights into the various features and tools available to users.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Troubleshooting Copilot for Microsoft 365",
+            "category": "Admins",
+            "content": "This guide helps IT admins troubleshoot common issues with Copilot for Microsoft 365. It includes step-by-step instructions for resolving problems and contacting support.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Copilot for Microsoft 365: User Feedback and Improvements",
+            "category": "Users",
+            "content": "Learn how to provide feedback on Copilot for Microsoft 365 and stay updated on the latest improvements and features. This article explains the feedback process and how user input is used to enhance the product.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        },
+        {
+            "title": "Future Roadmap for Copilot for Microsoft 365",
+            "category": "Decision Makers",
+            "content": "Get a glimpse of the future roadmap for Copilot for Microsoft 365. This article outlines upcoming features, enhancements, and strategic plans for the product.",
+            "created": "2024-11-05",
+            "author": "admin",
+            "status": "published"
+        }
+    ]
+}
