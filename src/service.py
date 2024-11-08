@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, HTTPException, Security
 from fastapi.security import APIKeyHeader
 from model import Base, kb_article
@@ -6,15 +8,15 @@ from db_helper import SessionLocal, engine
 from sqlalchemy.orm import Session
 
 # define API key, header, and validation
-API_KEYS = [
-    "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-]
-api_key_header = APIKeyHeader(name="x-api-key", auto_error=False)
+load_dotenv()
+API_KEY = "bearer " + os.environ['API_KEY']
+
+api_key_header = APIKeyHeader(name="Authorization", auto_error=False)
 
 def get_api_key(api_key_header: str = Security(api_key_header)):
     if api_key_header is None:
         raise HTTPException(status_code=401, detail="401 Unauthorized: No API Key provided")
-    if api_key_header not in API_KEYS:
+    if api_key_header != API_KEY:
         raise HTTPException(status_code=403, detail="403 Forbidden: Incorrect API Key")
     return api_key_header
 
